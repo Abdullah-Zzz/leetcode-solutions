@@ -2,7 +2,6 @@
 #both of the indexes if not only increment the index for t. we will keep on moving through t while checking for a match for a letter in s if a match is found 
 # we will start checking for the next letter of s in t from where we left off in t or from where we found the previous match  in t and we will keep on checking 
 #untill the index for either t or s reaches the len of their respective string.
-
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
         ls = 0
